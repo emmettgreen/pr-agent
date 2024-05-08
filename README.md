@@ -22,6 +22,7 @@ CodiumAI PR-Agent aims to help efficiently review and handle pull requests, by p
 </div>
 
 ### [Documentation](https://pr-agent-docs.codium.ai/)
+
 - See the [Installation Guide](https://pr-agent-docs.codium.ai/installation/) for instructions on installing PR-Agent on different platforms.
 
 - See the [Usage Guide](https://pr-agent-docs.codium.ai/usage-guide/) for instructions on running PR-Agent tools via different interfaces, such as CLI, PR Comments, or by automatically triggering them when a new PR is opened.

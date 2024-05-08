@@ -55,17 +55,17 @@ publish_labels=true
 add_original_user_description=true
 generate_ai_title=false
 use_bullet_points=true
-extra_instructions = ""
-enable_pr_type=true
-final_update_message = true
+extra_instructions = "Write all descriptions in the imperative mood."
+enable_pr_type=false
+final_update_message=false
 enable_help_text=false
-enable_help_comment=true
+enable_help_comment=false
 # describe as comment
 publish_description_as_comment=false
 publish_description_as_comment_persistent=true
 ## changes walkthrough section
 enable_semantic_files_types=true
-collapsible_file_list='adaptive' # true, false, 'adaptive'
+collapsible_file_list='true' # true, false, 'adaptive'
 inline_file_summary=false # false, true, 'table'
 # markers
 use_description_markers=false
@@ -82,9 +82,9 @@ max_context_tokens=8000
 num_code_suggestions=4
 commitable_code_suggestions = false
 extra_instructions = ""
-rank_suggestions = false
+rank_suggestions=true
 enable_help_text=false
-persistent_comment=false
+persistent_comment=true
 # params for '/improve --extended' mode
 auto_extended_mode=true
 num_code_suggestions_per_chunk=5
@@ -95,7 +95,7 @@ final_clip_factor = 0.8
 
 [pr_add_docs] # /add_docs #
 extra_instructions = ""
-docs_style = "Sphinx Style" # "Google Style with Args, Returns, Attributes...etc", "Numpy Style", "Sphinx Style", "PEP257", "reStructuredText"
+docs_style = "Google" # "Google Style with Args, Returns, Attributes...etc", "Numpy Style", "Sphinx Style", "PEP257", "reStructuredText"
 
 [pr_update_changelog] # /update_changelog #
 push_changelog_changes=false

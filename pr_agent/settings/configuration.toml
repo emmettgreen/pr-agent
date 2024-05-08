@@ -25,7 +25,7 @@ ai_disclaimer=""  # Pro feature, full text for the AI disclaimer
 require_score_review=false
 require_tests_review=true
 require_estimate_effort_to_review=true
-require_can_be_split_review=false
+require_can_be_split_review=true
 # soc2
 require_soc2_ticket=false
 soc2_ticket_prompt="Does the PR description include a link to ticket in a project management system (e.g., Jira, Asana, Trello, etc.) ?"
@@ -36,10 +36,10 @@ ask_and_reflect=false
 #automatic_review=true
 persistent_comment=true
 extra_instructions = ""
-final_update_message = true
+final_update_message=false
 # review labels
 enable_review_labels_security=true
-enable_review_labels_effort=true
+enable_review_labels_effort=false
 # specific configurations for incremental review (/review -i)
 require_all_thresholds_for_incremental_review=false
 minimal_commits_for_incremental_review=0

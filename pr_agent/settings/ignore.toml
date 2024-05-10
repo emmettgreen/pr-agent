@@ -4,6 +4,17 @@ glob = [
     # Ignore files and directories matching these glob patterns.
     # See https://docs.python.org/3/library/glob.html
     'vendor/**',
+    # Monorepo
+    'logs/**',
+    'venv/**',
+    'input/**',
+    'output/**',
+    # ems-frontend
+    'node_modules/**',
+    'dist/**',
+    'build/**',
+    'package-lock.json',
+    'src/gql/**',
 ]
 regex = [
     # Ignore files and directories matching these regex patterns.

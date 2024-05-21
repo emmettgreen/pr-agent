@@ -1,6 +1,6 @@
 [config]
 model="gpt-4-turbo-2024-04-09"
-model_turbo="gpt-4-turbo-2024-04-09"
+model_turbo="gpt-4o"
 fallback_models=["gpt-4-0125-preview"]
 git_provider="github"
 publish_output=true
@@ -19,6 +19,7 @@ secret_provider="google_cloud_storage"
 cli_mode=false
 ai_disclaimer_title=""  # Pro feature, title for a collapsible disclaimer to AI outputs
 ai_disclaimer=""  # Pro feature, full text for the AI disclaimer
+output_relevant_configurations=false
 
 [pr_reviewer] # /review #
 # enable/disable features
